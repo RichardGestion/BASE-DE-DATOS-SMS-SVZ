@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- datatable -->
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.datatables.net/2.0.8/css/dataTables.bootstrap5.min.css"
+    />
+<link 
+rel="stylesheet"
+type="text/css"
+href="https://cdn.datatables.net/buttons/3.0.2/css/buttons.bootstrap5.min.css"
+/>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+/>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer" 
+/>
+
+<title>Base de Datos SMS</title>
+</head>
+<body>
+<div class="container my-5">
+    <div class="row">
+    <table id="example" class="table table-striped" style="width:100%">
+        <caption>
+            BASE DE DATOS DE PELIGROS Y/O SUCESOS DE SVZ /REGISTROS 2024 - ALIANZA IKARO, C.A.
+        </caption>
+        <thead>
+            <tr>
+                <th>Codigo:</th>
+                <th>Fecha:</th>
+                <th>Estación:</th>
+                <th>Tipo de Reporte:</th>
+                <th>Descripción del Reporte:</th>
+                <th>Procedencia:</th>
+                <th>Gestión:</th>
+                <th>Asociados:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p style="text-align: center;">048-24</p></td>
+                <td><p style="text-align: center;">17/4/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Unas de las carruchas no tiene gomas protectoras en los esquineros.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1C_41dndqia8Ov1g8kU_gojZaLySdxZHi/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">074-24</p></td>
+                <td><p style="text-align: center;">16/7/2024</p></td>
+                <td><p style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">La estación no cuenta con extintor de 150Lbs, para atender las operaciones.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1XvN_mfW3a0-WUhpimJfv2aqTEcoduPr-/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">075-24</p></td>
+                <td><p style="text-align: center;">17/7/2024</p></td>
+                <td><p style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">El tractor de arrastre no tiene extintor.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1cTo4G76Ng78G4HLAdiY_VGrp-v0CwgjY/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">076-24</p></td>
+                <td><p style="text-align: center;">25/7/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Falla del arranque en el encendido del equipo tractor de arrastre.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1wbOWDlc17szBU0tDQNHSbW-vEr5d_vVh/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">077-24</p></td>
+                <td><p style="text-align: center;">1/8/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Las luces del tractor de arrastre no encienden.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/16VFJ7SGjgWznkfjUePwhuoBUKl8LqPLF/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">078-24</p></td>
+                <td><p style="text-align: center;">5/8/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Se requieren conos, ya que la cantidad que hay no son suficientes para el armado del perimetro.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/15otoI20qH99Cv5wCFR6aNZY4veV2_74P/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">079-24</p></td>
+                <td><p style="text-align: center;">19/8/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Se requieren equipo de protección personal como botas de seguridad y guantes para el personal restante.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/12enbP71Yha7t-SZP4ark0mXeUFMXgyLz/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">080-24</p></td>
+                <td><p style="text-align: center;">27/8/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">La estación no cuenta con calas para los equipos de apoyo en tierra.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1LTuQPhGHSkzXhIFzEMwJWqNktqYcXNmH/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">081-24</p></td>
+                <td><p style="text-align: center;">2/9/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">La estación no cuenta con el contenedor FOD.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1PW6TWqO8vCK-d0d9JNCxdUbkrzgVmvhN/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+            <tr>
+                <td><p style="text-align: center;">082-24</p></td>
+                <td><p style="text-align: center;">16/11/2024</p></td>
+                <td><P style="text-align: center;">SVZ</p></td>
+                <td><p style="text-align: center;">Peligro Voluntario (CERRADO)</p></td>
+                <td><p style="text-align: justify;">Existe una filtración en el radiador de enfriamiento de la caja del paymover la cual está pasando agua hacia el aceite.</p></td>
+                <td><p style="text-align: center;">Sistema de Reporte QR</p></td>
+                <td><p style="text-align: center;"><a href="https://drive.google.com/file/d/1vCD7AmPh8PlLFXuZASonlDgJbnJpiWG-/view?usp=sharing">Gestión del Riesgo</p></a></td>
+                <td><p style="text-align: justify;">No existe relación con otros reportes</p></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</div>
+<!-- Jquery -->
+ <script 
+ src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+ integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+ crossorigin="anonymous" 
+ referrerpolicy="no-referrer"></script>
+
+<!-- datatable -->
+<script 
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/2.0.8/js/dataTables.bootstrap5.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/buttons/3.0.2/js/dataTables.buttons.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.bootstrap5.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.colVis.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.html5.min.js"></script>
+
+<script 
+type="text/javascript"
+src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.print.min.js"></script>
+
+<!-- Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="scrpt.js"></script>
+</body>
+</html>
